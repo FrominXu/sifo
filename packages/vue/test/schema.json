@@ -1,0 +1,122 @@
+{
+  "component": "s-container",
+  "attributes": {
+    "label": "主容器",
+    "value": "testtt"
+  },
+  "children": [
+    {
+      "component": "a-button",
+      "attributes": {
+        "type": "primary"
+      },
+      "children": [
+        "按钮"
+      ]
+    },
+    {
+      "component": "a-date-picker",
+      "id": "date",
+      "attributes": {
+        "type": "primary"
+      }
+    },
+    {
+      "component": "a-input",
+      "id": "settt",
+      "attributes": {
+        "placeholder": "请输入"
+      }
+    },
+    {
+      "component": "s-container",
+      "attributes": {
+        "label": "二级容器"
+      },
+      "children": [
+        {
+          "component": "a-input",
+          "attributes": {
+            "placeholder": "placeholder",
+            "value": "temmmm"
+          }
+        },
+        {
+          "component": "a-input",
+          "attributes": {
+            "props": {
+              "placeholder": "placeholder"
+            }
+          }
+        },
+        {
+          "component": "a-input",
+          "attributes": {
+            "props": {
+              "placeholder": "placeholder"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "component": "a-input",
+      "attributes": {
+        "props": {
+          "placeholder": "placeholder"
+        }
+      }
+    },
+    {
+      "component": "a-input",
+      "attributes": {
+        "props": {
+          "placeholder": "placeholder"
+        }
+      }
+    },
+    {
+      "component": "a-input",
+      "attributes": {
+        "props": {
+          "placeholder": "placeholder"
+        }
+      }
+    },
+    {
+      "component": "a-input",
+      "attributes": {
+        "props": {
+          "placeholder": "placeholder"
+        }
+      }
+    },
+    {
+      "component": "a-input",
+      "attributes": {
+        "props": {
+          "placeholder": "placeholder"
+        }
+      }
+    },
+    "这是一段文本",
+    {
+      "component": "h1",
+      "attributes": {},
+      "children": [
+        "h1 的内容"
+      ]
+    },
+    {
+      "component": "anchored-heading",
+      "attributes": {
+        "props": {
+          "level": 2
+        }
+      },
+      "children": [
+        "h2 的内容"
+      ]
+    }
+  ]
+}
